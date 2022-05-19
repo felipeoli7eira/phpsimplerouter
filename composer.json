@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "scripts": {
+        "server": "php -S localhost:5000 -t public"
+    }
+}
